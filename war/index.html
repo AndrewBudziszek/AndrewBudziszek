@@ -1,425 +1,418 @@
+
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]>
-<html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
     <title>Andrew Budziszek</title>
 
     <!--
         Hey! You're looking at my code!
-
         AndrewBudziszek.com is designed with the Bootstrap Framework.
         AndrewBudziszek.com has a Java backend that handles the 'Contact Me' processing.
-
         Thanks for visiting!
         -Andrew
     -->
 
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
-          type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/rotating-card.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <!-- Plugins CSS -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="css/styles.css">
-
+    <script src="plugins/jquery-1.11.1.min.js"></script>
+    <script src="js/Chart.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
 </head>
 
-<body>
-<!-- ******HEADER****** -->
-<header class="header" id="myHeader">
+<body data-spy="scroll" data-offset="0" data-target="#nav">
+
+<div id="section-topbar">
+    <div id="topbar-inner">
+        <div class="container">
+            <div class="row">
+                <div class="dropdown">
+                    <ul id="nav" class="nav">
+                        <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
+                        <li class="menu-item"><a class="smoothScroll" href="#education" title="Education"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
+                    </ul><!--/ uL#nav -->
+                </div><!-- /.dropdown -->
+                <div class="clear"></div>
+            </div><!--/.row -->
+        </div><!--/.container -->
+        <div class="clear"></div>
+    </div><!--/ #topbar-inner -->
+</div><!--/ #section-topbar -->
+
+<div id="headerwrap">
     <div class="container">
-        <img class="profile-image img-responsive pull-left" src="images/profile.png" alt="Andrew Budziszek"
-             data-title="My Card" data-toggle="modal" data-target="#myCard" data-placement="top" rel="tooltip"/>
+        <div class="row centered">
+            <div class="col-lg-12">
+                <img src="images/profile.png" class="center-block img-responsive" />
+                <h1>Andrew Budziszek
+                </h1>
+                <h3>Software Engineer | abudziszek@gmail.com</h3>
+            </div><!--/.col-lg-12 -->
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/.#headerwrap -->
 
-        <div class="profile-content pull-left">
-            <h1 class="name">Andrew Budziszek</h1>
-            <h2 class="desc">Software Engineer/Web Developer</h2>
-            <ul class="social list-inline">
-                <li><a href="https://www.linkedin.com/pub/andrew-budziszek/63/a16/929"><i
-                        class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/SonnyBrooks"><i class="fa fa-github"></i></a></li>
-                <li><a href="assets/AndrewBudziszek.docx" download="AndrewBudziszekResume.docx"><i class="fa fa-file-word-o"></i></a></li>
-            </ul>
-        </div>
-        <!--//profile-->
-        <a class="btn btn-cta-primary pull-right" data-title='Contact Me' data-toggle='modal' data-target='#contactMe'
-           data-placement='top' rel='tooltip'><span class="fa fa-paper-plane"></span> Contact Me</a>
-    </div>
-    <!--//container-->
-</header>
-<!--//header-->
 
-<div class="container sections-wrapper">
+<section id="about" name="about"></section>
+<div id="intro">
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>ABOUT</h5>
+            </div>
+            <div class="col-lg-6">
+                <p>
+                    I am currently a student at the University of Wisconsin - Milwaukee pursuing a bachelor's degree in computer science. I am intrigued by software development and entrepreneurship. I have a lot of experience in Java and VB .NET. In my free time, I like to work on other programming skills such as HTML/CSS, Python, and Swift. I would really like to learn more about mobile development and strive to learn more about it every day!
+                    <br /> <br />
+                    My commitment to professional and personal improvement through continued education ensure I can stay current with all of the newest technologies and innovative business methods. My hard-working, self-confident and goal oriented personality along with my passion for software and technology is sure to bring great work and innovation to any workplace.
+                    <br /> <br />
+                    If you think I'd make a good fit for your team, don't hesitate to get in touch with me!</div>
+            <div class="col-lg-3">
+                <p><a href="assets/AndrewBudziszek.docx" download="AndrewBudziszekResume.docx" id="download"><br /><i class="fa fa-file-word-o"></i><sm>DOWNLOAD RESUME</sm></a></p>
+                <p class="hidden-xs"><a data-title='Contact Me' data-toggle='modal' data-target='#contactMe'
+                    data-placement='top' rel='tooltip'><span class="fa fa-paper-plane"></span> Contact Me</a></p>
+            </div>
+        </div><!--/.row -->
+    </div><!--/.container -->
+    <br/>
+</div><!--/ #intro -->
+
+
+<section id="education" name="education"></section>
+<!--EDUCATION DESCRIPTION -->
+<div class="container desc">
+    <br />
     <div class="row">
-        <div class="primary col-md-8 col-sm-12 col-xs-12">
-
-            <section class="about section">
-                <div class="section-inner">
-                    <h2 class="heading">About Me</h2>
-
-                    <div class="content">
-                        <p>
-                            I am currently a student at the University of Wisconsin - Milwaukee pursuing a bachelor's
-                            degree
-                            in computer science. I am intrigued by software development and entrepreneurship. I have a
-                            lot of
-                            experience in Java and VB .NET. In my free time, I like to work on other programming skills
-                            such as
-                            HTML/CSS, Python, and Swift. I would really like to learn more about mobile development!
-                        </p>
-
-                        <p>
-                            My commitment to professional and personal improvement through continued education ensure I
-                            can
-                            stay current with all of the newest technologies and innovative business methods. My
-                            hard-working,
-                            self-confident and goal oriented personality along with my passion for software and
-                            technology is sure
-                            to bring great work and innovation to any workplace.
-                        </p>
-
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </section>
-            <!--//section-->
-            <section class="education section">
-                <div class="section-inner">
-                    <h2 class="heading">Course Work</h2>
-
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title">CS 361 - Intro to Software Engineering</h3>
-                            <p>
-                                In Intro to Software Engineering, I learned agile development methods. Specifically -
-                                Scrum.
-                                I worked with a team where, over the course of a semester, we created a contact
-                                management web
-                                application using Google App Engine.
-                                This web app also scraped course information off of UWM's course page. You can find
-                                our code for this project on my Github by navigating to <a
-                                    href="https://github.com/VelvetMastermind/Rostr">VelvetMastermind/Rostr.</a>
-                            </p>
-                        </div>
-                        <div class="item">
-                            <h4 class="title">Other courses</h4>
-                            <ul>
-                                <li>CS 150 - Survey of Computer Science</li>
-                                <li>CS 201 - Introductory Computer Programming</li>
-                                <li>CS 251 - Intermediate Computer Programming</li>
-                                <li>CS 315 - Introduction to Computer Organization and Assembly Language Programming
-                                </li>
-                                <li>CS 337 - Systems Programming</li>
-                                <li>CS 351 - Data Structures and Algorithms</li>
-                                <li>ElecEng 354 - Digital Logic</li>
-                                <li>Math 231 - 233: Calculus 1 - Calculus 3</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--//content -->
-                </div>
-                <!--//section-inner-->
-            </section>
-            <!--//section-->
-            <section class="experience section">
-                <div class="section-inner">
-                    <h2 class="heading">Work Experience</h2>
-
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title">Programmer Analyst Intern <span class="place"><a
-                                    href="http://www.localjobnetwork.com">Infosoft Group, Inc. (MilwaukeeJobs.com)<br /></a></span>
-                                <span class="year">(May 2014 - Present)</span></h3>
-
-                            <p>
-                                Assists IT Staff in conceptualizing and development of new and existing software
-                                programs and applications.
-                                Write, translate, and code software programs and applications according to
-                                specifications.
-                                Test software and resolve any defects found.
-                                Run and monitor software performance tests on new and existing programs for the purposes
-                                of correcting errors,
-                                isolating areas for improvement, and general debugging.
-                            </p>
-                            <h5>
-                                Acquired Skills
-                            </h5>
-                            <ul>
-                                <li>VB .NET</li>
-                                <li>SQL</li>
-                                <li>HTML/CSS</li>
-                                <li>MVC5</li>
-                                <li>Web Scraping</li>
-                            </ul>
-                        </div>
-                        <!--//item-->
-                        <div class="item">
-                            <h3 class="title">IT Intern - <span class="place"><a href="#">Milwaukee County Information
-                                and Media Services Department</a></span> <span
-                                    class="year"> (September 2013 - May 2014)</span></h3>
-
-                            <p>
-                                Responsible for imaging and deploying new machines during a technology transitioning
-                                project.
-                            </p>
-                            <h5>
-                                Acquired Skills
-                            </h5>
-                            <ul>
-                                <li>Microsoft Deployment Toolkit</li>
-                            </ul>
-                        </div>
-                        <!--//item-->
-
-                        <div class="item">
-                            <h3 class="title">Assistant Instructor - <span class="place"><a href="#">Greendale High
-                                School</a></span> <br /><span class="year">(May 2012 - August 2013)</span></h3>
-
-                            <p>
-                                Educating students in music performance to compete at a national level.
-                                Specifically drumline and percussion students.
-                            </p>
-                            <h5>
-                                Accomplishments and Acquired Skills
-                            </h5>
-                            <ul>
-                                <li>Won first place awards at multiple local competitions.</li>
-                                <li>Won first place at the WSMA State Marching Band Championships with a caption award
-                                    in best percussion.
-                                </li>
-                                <li>Competed in the Bands of America Grand National Championships at Lucas Oil Stadium
-                                    in Indianapolis, IN.
-                                </li>
-                                <li>Leadership experience.</li>
-                            </ul>
-                        </div>
-                        <!--//item-->
-
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </section>
-            <!--//section-->
-            <section class="github section">
-                <div class="section-inner">
-                    <h2 class="heading">My GitHub</h2>
-
-                    <div id="ghfeed" class="ghfeed">
-                    </div>
-                    <!--//ghfeed-->
-
-                </div>
-                <!--//secton-inner-->
-            </section>
-            <!--//section-->
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5>EDUCATION</h5>
         </div>
-        <!--//primary-->
-        <div class="secondary col-md-4 col-sm-12 col-xs-12">
-            <aside class="info aside section">
-                <div class="section-inner">
-                    <h2 class="heading sr-only">Basic Information</h2>
-
-                    <div class="content">
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Milwaukee, WI</li>
-                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a
-                                    href="mailto:abudziszek@gmail.com?subject=Hi, Andrew!">abudziszek@gmail.com</a></li>
-                            <li><i class="fa fa-phone"></i><span class="sr-only">Phone Number:</span>(262)617-6215</li>
-                        </ul>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </aside>
-            <!--//aside-->
-
-            <aside class="skills aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Skills</h2>
-
-                    <div class="content">
-                        <p class="intro">
-                            Through work, school and hobbies I've acquired many skills in a variety of programming
-                            languages. Below you'll see a few that I know. I am a strong believer in
-                            continuous learning so this list is bound to change often!
-                        </p>
-
-                        <div class="skillset">
-                            <div class="item">
-                                <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip"
-                                                                  data-placement="left" data-animation="true"
-                                                                  title="I know Java pretty well!">Pro</span></h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="80%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">VB .NET<span class="level-label">Pro</span></h3>
-
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="75%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">HTML5, CSS3, Bootstrap<span class="level-label">Excellent</span>
-                                </h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="67%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">Swift<span class="level-label" data-toggle="tooltip"
-                                                                   data-placement="left" data-animation="true"
-                                                                   title="Actively learning!"><span
-                                        class="glyphicon glyphicon-info-sign"></span></span></h3>
-
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="27%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-                        </div>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </aside>
-            <!--//section-->
-            <aside class="education aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Education</h2>
-
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title"><i class="fa fa-graduation-cap"></i> BS Computer Science</h3>
-                            <h4 class="university">University of Wisconsin - Milwaukee <span
-                                    class="year">(2012-2016)</span></h4>
-                        </div>
-                        <!--//item-->
-                        <div class="item">
-                            <h3 class="title"><i class="fa fa-graduation-cap"></i>Greendale High School</h3>
-                            <h4 class="university">Greendale, WI <span class="year">(2008-2012)</span></h4>
-                        </div>
-                        <!--//item-->
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </aside>
-            <!--//section-->
-            <aside class="list music aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Favorite coding music</h2>
-
-                    <div class="content">
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-headphones"></i> Sam's Town(Album) - The Killers</li>
-                            <li><i class="fa fa-headphones"></i> Clarity(Album) - Zedd</li>
-                            <li><i class="fa fa-headphones"></i> Native(Album) - One Republic</li>
-                        </ul>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </aside>
-            <!--//section-->
-            <aside class="list quotes aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Favorite Quotes</h2>
-                    <div class="content">
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-comment-o"></i>
-                                <blockquote><p>"Live. Learn. Love."</p>
-                                    <p>
-                                        <small>Vic Gundotra (Google I/O 2013)</small>
-                                    </p>
-                                </blockquote>
-                            </li>
-                            <li><i class="fa fa-comment-o"></i>
-                                <blockquote><p>"I want to put a ding in the universe."</p>
-                                    <p>
-                                        <small>Steve Jobs</small>
-                                    </p>
-                                </blockquote>
-                            </li>
-                            <li><i class="fa fa-comment-o"></i>
-                                <blockquote><p>"It's not how many times you get knocked down that count, it's how many
-                                    times you get back up."</p>
-                                    <p>
-                                        <small>George A. Custer</small>
-                                    </p>
-                                </blockquote>
-                            </li>
-                            <li><i class="fa fa-comment-o"></i>
-                                <blockquote><p>"Anyone who stops learning is old, whether at twenty or eighty. Anyone
-                                    who keeps learning stays young."</p>
-                                    <p>
-                                        <small>Henry Ford</small>
-                                    </p>
-                                </blockquote>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-            </aside>
-            <!--//section-->
+        <div class="col-lg-6">
+            <p><t>Bachelor of Science - Computer Science</t><br/>
+                University of Wisconsin - Milwaukee <br/>
+                <i>GPA - 3.741</i>
+            </p>
         </div>
-        <!--//secondary-->
+        <div class="col-lg-3">
+            <p>
+                <sm>GRADUATING IN MAY 2016</sm><br/>
+                <imp><sm>IN PROGRESS</sm></imp>
+            </p>
+        </div>
+    </div><!--/.row -->
+    <br />
+    <hr>
+</div><!--/.container -->
+
+<!-- Course Work -->
+<div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5>COURSE WORK</h5>
+        </div>
+        <div class="col-lg-6">
+            <p><t>Intro to Software Engineering</t> -
+                <sm><b>CS 361</b></sm><br/>
+            </p>
+            <p>
+                In Intro to Software Engineering, I learned agile development methods. Specifically -
+                Scrum.
+                I worked with a team where, over the course of a semester, we created a contact
+                management web
+                application using Google App Engine.
+                This web app also scraped course information off of UWM's course page. You can find
+                our code for this project on my Github by navigating to <a href="https://github.com/VelvetMastermind/Rostr">VelvetMastermind/Rostr.</a>
+                <br />
+                <sm>
+                    Other Courses:
+                    <ul>
+                        <sm>
+                            <li>CS 150 - Survey of Computer Science</li>
+                            <li>CS 201 - Introductory Computer Programming</li>
+                            <li>CS 251 - Intermediate Computer Programming</li>
+                            <li>CS 315 - Intro to Assembly Language Programming</li>
+                            <li>CS 337 - Systems Programming</li>
+                            <li>CS 351 - Data Structures and Algorithms</li>
+                            <li>ElecEng 354 - Digital Logic</li>
+                            <li>Math 231 - 233: Calculus 1 - Calculus 3</li>
+                        </sm>
+                    </ul>
+                </sm>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <sm>
+                <p>SKILLS AQUIRED:</p>
+                <p>
+                    <ul>
+                        <li>Java</li>
+                        <li>C/C++</li>
+                        <li>HTML/CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Google App Engine</li>
+                        <li>Agile Development (Scrum)</li>
+                        <li>MIPS - Assembly Language</li>
+                    </ul>
+                </p>
+            </sm>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+</div><!--/.container -->
+
+<!--WORK DESCRIPTION -->
+<div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5>WORK</h5>
+        </div>
+        <!-- Job -->
+        <div class="col-lg-6">
+            <p><t>Programmer Analyst Intern</t> -
+                <sm><b>Infosoft Group, Inc.</b></sm><br/>
+            </p>
+            <p>
+                Assists IT Staff in conceptualizing and development of new and existing software programs and applications. Write, translate, and code software programs and applications according to specifications. Test software and resolve any defects found. Run and monitor software performance tests on new and existing programs for the purposes of correcting errors, isolating areas for improvement, and general debugging.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>MAY 2014 - CURRENT</sm></p>
+            <sm>
+                Skills Aquired:<br />
+                <ul>
+                    <li>VB .NET</li>
+                    <li>SQL</li>
+                    <li>HTML/CSS</li>
+                    <li>MVC 5</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </sm>
+        </div>
+        <!-- //Job -->
+        <!-- Job -->
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t>IT Intern</t> -
+                <sm><b>Milwaukee County Information and Media Services Department</b></sm> <br/>
+            </p>
+            <p>
+                Responsible for imaging and deploying new machines during a technology transitioning project. Also provided outstation support.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>OCTOBER 2013 - MAY 2014</sm></p>
+            <sm>Skills Aquired:</sm><br />
+            <sm>
+                <ul>
+                    <li>Microsoft Deployment Toolkit</li>
+                </ul>
+            </sm>
+        </div>
+        <!-- //Job -->
+        <!-- Job -->
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t>Assistant Instructor (Percussion/Drill)</t> -
+                <sm><b>Greendale High School</b></sm> <br/>
+            </p>
+            <p>
+                Educated students in music performance to compete at a national level.
+                <br />
+                Emphasized teamwork, leadership and integrity.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>MAY 2012 - NOVEMBER 2013</sm></p>
+            <sm>Accomplishments:</sm><br />
+            <sm>
+                <ul>
+                    <li>Won first place awards at multiple local competitions</li>
+                    <li>Won first place at the WSMA State Marching Band Championships with a caption award in best percussion</li>
+                    <li>Competed in the Bands of America Grand National Championships at Lucas Oil Stadium in Indianapolis, Indiana</li>
+                </ul>
+            </sm>
+        </div>
+        <!-- //Job -->
+
+    </div><!--/.row -->
+    <br>
+</div><!--/.container -->
+
+<!--SKILLS DESCRIPTION -->
+<div id="skillswrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>SKILLS</h5>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="java" height="130" width="130"></canvas>
+                <p>Java</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 70,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 30,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="VB" height="130" width="130"></canvas>
+                <p>VB .NET</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 75,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 25,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("VB").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="HTMLCSSBOOT" height="130" width="130"></canvas>
+                <p>HTML5/CSS3/Bootstrap</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 55,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 45,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("HTMLCSSBOOT").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+
+            <div class="col-lg-3 col-lg-offset-3 centered">
+                <canvas id="swift" height="130" width="130"></canvas>
+                <p>Swift</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 30,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 70,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("swift").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="photoshop" height="130" width="130"></canvas>
+                <p>Photoshop</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 70,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 30,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="AppEngine" height="130" width="130"></canvas>
+                <p>Google App Engine</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 50,
+                            color:"#1abc9c"
+                        },
+                        {
+                            value : 50,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("AppEngine").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+        </div><!--/.row -->
+        <br>
+    </div><!--/.container -->
+</div><!--/ #skillswrap -->
+
+<section id="contact" name="contact"></section>
+<!--FOOTER DESCRIPTION -->
+<div id="footwrap">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>CONTACT</h5>
+            </div>
+            <div class="col-lg-6">
+                <p><t>Email</t><br/>
+                    abudziszek@gmail.com <br/>
+                </p>
+                <p><t>Address</t><br/>
+                    1807 Kenwood Blvd. <br/>
+                    Milwaukee, WI 53211 <br/>
+                    United States <br/>
+                </p>
+                <p><t>Phone</t><br/>
+                    (262) 617-6215 <br/>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>CONNECT WITH ME</sm></p>
+                <p>
+                    <a href="https://github.com/SonnyBrooks"><i class="fa fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/pub/andrew-budziszek/63/a16/929"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="https://twitter.com/andrewbudziszek"><i class="fa fa-twitter fa-2x"></i></a>
+                </p>
+            </div>
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/ #footer -->
+
+<div id="c">
+    <div class="container">
+        <p>2015 - Andrew Budziszek</p>
+
     </div>
-    <!--//row-->
 </div>
-<!--//masonry-->
-
-<!-- ******FOOTER****** -->
-<footer class="footer">
-    <div class="container text-center">
-       &copy; Andrew Budziszek
-    </div>
-    <!--//container-->
-</footer>
-<!--//footer-->
 
 <!-- Contact Modal #contactMe -->
 <div class='modal fade' id='contactMe' tabindex='-1' role='dialog' aria-labelledby='contactMe' aria-hidden='true'>
@@ -459,7 +452,7 @@
 <div class="modal fade" id="contactSuccess" tabindex="-1" role="dialog" aria-labelledby="contactMe" aria-hidden="true"
      style="display: none;">
     <div class="modal-dialog">
-        <div class="alert alert-success alert-dismissable"><span class="glyphicon glyphicon-ok"></span>
+        <div class="alert alert-success alert-dismissable contactMeMSG"><span class="fa fa-check"></span>
             &nbsp; Thanks!
             <br>
             I'll be sure to get back to you as soon as possible!
@@ -470,96 +463,17 @@
 <div class="modal fade bs-example-modal-sm" id="contactError" tabindex="-1" role="dialog"
      aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="alert alert-danger">
-            <span class="glyphicon glyphicon-warning-sign"></span> Oops! Something went wrong...
-            Please contact me directly at andrew@andrewbudziszek.com or abudziszek.dev@gmail.com. Thanks!
+        <div class="alert alert-danger alert-dismissable contactMeMSG">
+            <span class="fa fa-exclamation-circle"></span> Oops! Something went wrong...
+            Please contact me directly at abudziszek@gmail.com or connect with me on LinkedIn. Thanks!
         </div>
     </div>
 </div>
 
-<!-- My Card -->
-<div class="modal fade bs-example-modal-sm" id="myCard" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
-     aria-hidden="true">
-    <div class="col-md-4 col-sm-6">
-        <div class="card-container">
-            <div class="card">
-                <div class="front">
-                    <div class="cover">
-                        <img src="images/rotating_card_thumb2.png">
-                    </div>
-                    <div class="user">
-                        <img class="img-circle" src="images/profile.png">
-                    </div>
-                    <div class="content">
-                        <div class="main">
-                            <h3 class="name">Andrew Budziszek</h3>
-                            <p class="profession">Software Engineer/Web Developer</p>
-                            <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Milwaukee, WI</h5>
-                            <h5><i class="fa fa-graduation-cap fa-fw text-muted"></i> University of Wisconsin - Milwaukee </h5>
-                            <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> abudziszek@gmail.com</h5>
-                        </div>
-                    </div>
-                </div> <!-- end front panel -->
-                <div class="back text-center">
-                    <div class="cover">
-                        <img src="images/rotating_card_thumb2.png">
-                    </div>
-                    <div class="user">
-                        <img class="img-circle" src="images/profile.png">
-                    </div>
-                    <div class="content">
-                        <div class="main">
-                            <div class="main">
-                                <h5 class="text-center">About Me</h5>
-                                <p>
-                                    Aspiring to change the world through technology and software.
-                                </p>
-                                <h5 class="text-center">Skills</h5>
-                                <p>
-                                    Java, VB .NET, Swift, C++, HTML, CSS and much more...
-                                </p>
-                                <div class="">
-                                    <br />
-                                    <ul class="list-inline">
-                                        <li><a href="https://www.linkedin.com/pub/andrew-budziszek/63/a16/929"><i
-                                                class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/SonnyBrooks"><i class="fa fa-github"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end back panel -->
-            </div> <!-- end card -->
-        </div> <!-- end card-container -->
-    </div>
-</div>
-
-<!-- Javascript -->
-<script type="text/javascript" src="plugins/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="plugins/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-<!-- github activity plugin -->
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-<script type="text/javascript"
-        src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
-<!-- custom js -->
-<script type="text/javascript" src="js/main.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="plugins/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="js/ContactMe.js"></script>
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-58008355-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
-
-
-
