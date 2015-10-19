@@ -177,6 +177,10 @@ hr {
     margin-top: 100px;
 }
 
+.linkFALSE {
+    color:white;
+}
+
 #headerwrap h3 {
     font-size: 20px;
     color: white;
